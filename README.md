@@ -42,6 +42,7 @@ c) 0, 1, 4, 9, 16, 25, 36, ____ (Resposta: 49)\
 d) 4, 16, 36, 64, ____ (Resposta: 100)\
 e) 1, 1, 2, 3, 5, 8, ____ (Resposta: 13)\
 f) 2, 10, 12, 16, 17, 18, 19, ____ (Resposta: 20)
+
 5. Interruptores e Lâmpadas
 Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. O objetivo é descobrir qual interruptor controla cada lâmpada em apenas duas idas à sala das lâmpadas.
 
