@@ -7,24 +7,20 @@ Escreva um programa que calcula a sequência de Fibonacci a partir de um número
 
 Exemplo de Saída:
 
-mathematica
-Copiar código
-Informe um número: 8
+Informe um número: 8\
 O número 8 pertence à sequência de Fibonacci.
+
 2. Contagem de Letras
 Crie um programa que verifica a existência da letra 'a' (tanto maiúscula quanto minúscula) em uma string fornecida e conta quantas vezes essa letra ocorre.
 
 Exemplo de Saída:
 
-less
-Copiar código
-Informe uma string: A casa é azul.
+Informe uma string: A casa é azul.\
 A letra 'a' aparece 3 vezes.
+
+
 3. Cálculo de Soma
 Dado o trecho de código abaixo, calcule o valor da variável SOMA ao final do processamento:
-
-c
-Copiar código
 int INDICE = 12, SOMA = 0, K = 1;
 enquanto K < INDICE faça {
     K = K + 1;
@@ -46,16 +42,13 @@ f) 2, 10, 12, 16, 17, 18, 19, ____ (Resposta: 20)
 5. Interruptores e Lâmpadas
 Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. O objetivo é descobrir qual interruptor controla cada lâmpada em apenas duas idas à sala das lâmpadas.
 
-Solução:
+Resposta: Ligaria o primeiro interruptor, deixaria um tempo ligado e depois desligaria. Iria até a sala e veria qual lâmpada está quente. A lâmpada quente faria referência àquele interruptor.
+Depois, voltaria à sala, ligaria mais um interruptor e esperaria. Voltaria e faria o mesmo procedimento, descobrindo qual lâmpada está quente;
+assim, a lâmpada quente estaria associada àquele interruptor.No fim, por já ter descoberto dois interruptores, deduziria que o interruptor que não mexi estaria associado à lâmpada que não aqueceu.
+Poderia tambem, caso possível, ligar um interruptor, ir à sala verificar a lâmpada acesa e, então, associá-la àquele interruptor. Depois, voltaria,
+apagaria o interruptor e ligaria outro, indo à sala para verificar a outra lâmpada acesa, associando-a a esse interruptor. No fim, por já ter descoberto dois interruptores,
+deduziria que o interruptor que não mexi estaria associado à lâmpada que não acendeu.
 
-Ligue o primeiro interruptor e deixe-o ligado por alguns minutos.
-Desligue-o e vá até a sala das lâmpadas. A lâmpada quente corresponde ao primeiro interruptor.
-Volte à sala, ligue o segundo interruptor e vá até a sala novamente. A lâmpada acesa corresponde ao segundo interruptor.
-A lâmpada fria será associada ao terceiro interruptor.
-Instruções de Uso
-Clone este repositório:
-bash
-Copiar código
 git clone https://github.com/seu_usuario/nome_do_repositorio.git
 Navegue até o diretório do projeto:
 bash
